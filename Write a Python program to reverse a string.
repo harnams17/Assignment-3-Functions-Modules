@@ -1,0 +1,40 @@
+#Write a Python program to reverse a string.
+
+#Sample String : "1234abcd"
+#Expected Output : "dcba4321"
+
+#Python Code: 1
+
+def string_reverse(str1):
+
+    rstr1 = ''
+    index = len(str1)
+    while index > 0:
+        rstr1 += str1[ index - 1 ]
+        index = index - 1
+    return rstr1
+print(string_reverse('1234abcd'))
+
+#Output:
+
+
+#Dcba4321
+ 
+#Python Code: 2
+ 
+def reverse(itr):
+  return itr[::-1]
+ 
+str1 = '1234abcd'
+print("Original string:",str1)
+print("Reverse strig:",reverse('1234abcd'))
+ 
+ 
+#Output:
+
+#Original string: 1234abcd
+#Reverse string: dcba4321
+
+ 
+
+
